@@ -1,0 +1,13 @@
+<div class="editor-container">
+  <div class="tab-buttons">
+    <button (click)="setLanguage('html')">HTML</button>
+    <button (click)="setLanguage('css')">CSS</button>
+    <button (click)="setLanguage('javascript')">JavaScript</button>
+  </div>
+
+  <textarea id="code-editor"></textarea>
+
+  <button (click)="runCode()">Ejecutar Código</button>
+
+  <iframe id="previewFrame" class="preview-frame"></iframe>
+</div>
